@@ -1,0 +1,20 @@
+{
+  "name": "stock-position-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "sql.js": "^1.10.0",
+    "yahoo-finance2": "^2.11.0",
+    "zod": "^3.23.0",
+    "fast-csv": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
